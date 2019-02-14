@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_Document", "..\..\..\..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClasses", "PartialClasses\PartialClasses.csproj", "{1C59EFB5-B1DE-4266-8F2E-8EF994A6E86F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialMethods", "PartialMethods\PartialMethods.csproj", "{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,14 @@ Global
 		{1C59EFB5-B1DE-4266-8F2E-8EF994A6E86F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C59EFB5-B1DE-4266-8F2E-8EF994A6E86F}.Release|x86.ActiveCfg = Release|Any CPU
 		{1C59EFB5-B1DE-4266-8F2E-8EF994A6E86F}.Release|x86.Build.0 = Release|Any CPU
+		{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E3E65C8-2906-4EFD-BF34-0C68D30190EA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
