@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 // Наследование.
 
 namespace Inheritance
@@ -8,15 +7,13 @@ namespace Inheritance
     {
         // Поля
 
+        // Открытое поле.
         public string publicField = "BaseClass.publicField";
+
+        // Закрытое поле.
         private string privateField = "BaseClass.privateField";
+
+        // Защищенное поле.
         protected string protectedField = "BaseClass.protectedField";
-
-        // Методы
-
-        public void Show()
-        {
-            Console.WriteLine(privateField);
-        }
     }
 }
