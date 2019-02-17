@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "As", "As\As.csproj", "{4B35
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealed", "Sealed\Sealed.csproj", "{56652F94-5391-4F95-AB94-655300365136}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedMethods", "SealedMethods\SealedMethods.csproj", "{35BCD450-CA49-48A5-B368-9979AFAA8142}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{56652F94-5391-4F95-AB94-655300365136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56652F94-5391-4F95-AB94-655300365136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56652F94-5391-4F95-AB94-655300365136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BCD450-CA49-48A5-B368-9979AFAA8142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BCD450-CA49-48A5-B368-9979AFAA8142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BCD450-CA49-48A5-B368-9979AFAA8142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BCD450-CA49-48A5-B368-9979AFAA8142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
