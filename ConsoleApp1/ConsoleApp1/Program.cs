@@ -8,34 +8,35 @@ namespace ConsoleApp1
 {
     class A
     {
-        private int b;
-        public static int z;
-
+        
         static A()
         {
             Console.WriteLine("staticheski konstuktor");
-            z = 222;
+            
+        }
+        public A()
+        {
+            Console.WriteLine("sovorakan construktor");
         }
 
-        public A(int b)
+        
+        public static void MetodSt()
         {
-            this.b = b;
-        }
-        public static void Msas()
-        {
-
+            Console.WriteLine("static metod");
         }
         public void M()
         {
-            Console.WriteLine("{0}, {1}",b, z);
+            Console.WriteLine("sovorakan metod");
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            A.Msas();
-            A.z=2;
+            A.MetodSt();
+            A a = new A();
+            a.M();
+           
             Console.ReadKey();
         }
     }
