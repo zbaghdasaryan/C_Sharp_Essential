@@ -9,7 +9,7 @@ namespace Yield
     {
         public static IEnumerable Power()
         {
-    
+            return new ClassPower(-2);
         }
 
         private sealed class ClassPower : IEnumerable<object>,  IEnumerator<object>, IEnumerator, IDisposable
