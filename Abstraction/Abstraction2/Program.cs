@@ -5,13 +5,7 @@
 namespace Abstraction
 {
     // Конкретный класс A.
-    class ConcreteClassA
-    {
-        public void Operation()
-        {
-            Console.WriteLine("ConcreteClassA.Operation");
-        }
-    }
+   
 
     // Абстрактный класс.
     abstract class AbstractClass : ConcreteClassA
